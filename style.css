@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.col-1 h1 {
+    color: white;
+}
+
+.col-1 h3 {
+    color: white;
+}
+
+.col-1 p {
+    color: white;
+}
+
+nav {
+    background-color: green;
+    margin-top: 10px;
+
+
+
+}
+
+.navbar {
+    position: fixed;
+    background-color: green;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    margin-top: 3;
+    color: white;
+    margin: 20px;
+}
+
+.container1 {
+    background-color: black;
+}
+
+.row {
+
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.vid {
+    margin-top: 50px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: green;
+    border: solid green;
+
+    border-radius: 5px;
+    color: white;
+}
+
+.btn a {
+    color: white;
+    font-size: 30px;
+}
+
+.container2 h2 {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+
+    text-overflow: clip;
+}
+
+.partner {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid green 5px;
+    border-radius: 50px;
+    display: inline-block;
+    /* animation: scrollAnimation 10s linear infinite; */
+
+}
+
+.scroll-container {
+    width: 100%;
+    overflow-x: auto;
+
+}
+
+
+
+.displayinline {
+    display: flex;
+}
+
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 0;
+}
+
+.profile-container h1 {
+    display: block;
+}
+
+.profile-card {
+    flex: 1 1 30%;
+    max-width: 300px;
+    background: #fff;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 #ccc;
+    transition: .3s;
+}
+
+.profile-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px -5px #ccc;
+}
+
+.profile-icon {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px 0 10px 0;
+}
+
+.profile-position {
+    font-size: 14px;
+    color: #777;
+}
+
+.button {
+    margin: 40px 0 0 0;
+    padding: 10px 30px;
+    color: green;
+    text-decoration: none;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: #fff;
+    background: #748dff;
+    border: 1px solid #748dff;
+}
+
+@media screen and (max-width: 1000px) {
+    .profile-name {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .profile-card {
+        padding: 20px 15px;
+    }
+
+    .profile-name {
+        font-size: 16px;
+    }
+}
